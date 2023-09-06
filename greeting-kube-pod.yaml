@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: greeting
+  labels:
+    component: web
+spec:
+  containers:
+    - name: greeting
+      image: ngoprek/halo-kube
+      ports:
+        - containerPort: 80
