@@ -19,4 +19,14 @@ spec:
             - containerPort: 3000
           env:
             - name: POSTGRES_ENABLED
-              value: "false"
+              value: "true"
+            - name: DB_HOST
+              value: postgres-cluster-ip-service
+            - name: DB_PORT
+              value: "5432"
+            - name: DB_USER
+              value: postgres
+            - name: DB_DATABASE
+              value: kudemodb
+            - name: DB_PASSWORD
+              value: password-mudah

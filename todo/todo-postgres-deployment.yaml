@@ -33,5 +33,5 @@ spec:
         env:
           - name: POSTGRES_PASSWORD
             value: password-mudah
-          - name: POSTGRES_db
+          - name: POSTGRES_DB
             value: kudemodb
